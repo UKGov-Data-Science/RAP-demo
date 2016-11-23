@@ -6,10 +6,8 @@ r_packages:
  - devtools
  - DT
 
-install:
-  - Rscript -e "if (!require('devtools')) install.packages('devtools')"
-  - Rscript -e "devtools::install_github('UKGov-Data-Science/RAP-demo')"
-  - Rscript -e "if (!require('DT')) install.packages('DT')"
+r_github_packages:
+  - UKGov-Data-Science/RAP-demo
 
 before_script:
   - chmod +x ./_build.sh
