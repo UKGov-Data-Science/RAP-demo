@@ -5,3 +5,9 @@ _publish.R
 _book
 _bookdown_files
 rsconnect
+
+# Add files which may contain sensitive data
+
+*.Rds
+*.csv
+*.spss
