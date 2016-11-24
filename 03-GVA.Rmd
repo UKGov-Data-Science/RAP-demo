@@ -13,8 +13,13 @@ This compares to increases of 2.3 per cent and 17.4 per cent respectively for th
 
 [^1]: Data are in current prices (i.e. have not been adjusted for inflation).
 
-```{r}
-DT::datatable(mtcars)
+```{r GVA_table, echo=FALSE, warning=FALSE, message=FALSE}
+library(EESectors)
+library(dplyr)
+library(knitr) # May not be required here
+
+EESectors::GVA_Table(GVA) %>% kable
+
 ```
 
 The Cultural Sector had the greatest percentage increase between 2014 and 2015 (15.0%), whilst Sport had the greatest percentage increase since 2010 (44.4%), despite a small decrease between 2014 and 2015 (of 1.5%). 
