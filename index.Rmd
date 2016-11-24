@@ -64,7 +64,7 @@ The DCMS Sport Satellite Account, based on the EU agreed methodology, should con
 Estimates for tourism used in this publication are based on a different methodology to all other sectors, as they are taken from the Tourism Satellite Account. 
 This is an internationally recommended methodology for measurement of the contribution of tourism to the economy.
 
-## 2015 GVA
+## 2015 GVA {#gva_2015}
 For 2015, the GVA data is taken from the output measure of GVA to allow consistency with the sector measures. 
 This is aligned to average GVA up to and including 2014 (last Supply Use balanced year) but then uses growth in the output measure as a proxy for GVA beyond that. 
 The 2015 figure therefore differs from National Account GVA at current basic prices (series named ABML).

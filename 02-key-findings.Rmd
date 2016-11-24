@@ -1,6 +1,6 @@
 # Key Findings {#key_findings}
 
-## GVA
+## GVA {#key_findings_gva}
 
 * In 2015 the contribution of DCMS sectors to the UK economy (GVA) was £221bn, or 13.3 per cent of UK GVA.
 
