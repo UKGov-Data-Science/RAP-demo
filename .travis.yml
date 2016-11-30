@@ -6,7 +6,8 @@ r_packages:
  - devtools
  - checkpoint
 
-r_github_packages:
+github_packages:
+ - MangoTheCat/visualTest
  - UKGov-Data-Science/EESectors
 
 before_script:
