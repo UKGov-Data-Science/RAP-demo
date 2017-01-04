@@ -13,11 +13,10 @@ This compares to increases of 2.3 per cent and 17.4 per cent respectively for th
 
 [^1]: Data are in current prices (i.e. have not been adjusted for inflation).
 
-```{r GVA_table, warning=FALSE, message=FALSE}
+```{r GVA_table, warning=FALSE, message=FALSE, results='asis'}
 
-DT::datatable(
-  EESectors::GVA_table(EESectors::GVA)
-  )
+library(EESectors)
+GVA_table(GVA, html = TRUE)
 
 ```
 

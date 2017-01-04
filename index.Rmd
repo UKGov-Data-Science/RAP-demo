@@ -16,6 +16,17 @@ description: "Reproducible Analytical Pipelines -Demo-"
 **Date**: August 2016  
 **Contact**: <someone@xandy.gov.uk>
 
+```{r setup, echo=FALSE, include=FALSE, error=FALSE, echo=FALSE}
+
+knitr::opts_chunk$set(
+  warning = FALSE, 
+  message = FALSE,
+  echo = FALSE,
+  cache = FALSE
+  )
+
+```
+
 
 # Introduction {#intro}
 
